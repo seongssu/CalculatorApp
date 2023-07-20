@@ -7,6 +7,9 @@
     tools:context=".MainActivity"
     android:background="@color/black">
 
+<!---SP(Scale-Independent Pixels) :  직역하면 스케일 독립 픽셀 단위로, 시스템이 지정한 font size에 영향을 받음.
+-DP(Density-Independent Pixels) : 직역하면 밀도 독립 픽셀 단위로, 장치의 밀도에 상관없이 물리적으로 동일한 크기를 갖음.
+-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -281,7 +284,7 @@
             android:layout_marginTop="20dp">
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/devide"
+                android:id="@+id/divide"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
